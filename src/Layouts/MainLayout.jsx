@@ -4,9 +4,9 @@ import Footer from "../Components/Shared/Footer/Footer";
 
 const MainLayout = () => {
   return (
-    <div>
+    <div className="bg-sky-100">
       <Navbar />
-      <div className="min-h-[calc(100vh-116px)]">
+      <div className="min-h-[calc(100vh-116px)] flex justify-center items-center">
         <Outlet />
       </div>
       <Footer />

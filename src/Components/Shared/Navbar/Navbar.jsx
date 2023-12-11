@@ -115,9 +115,9 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="border-2 px-2 py-1 sm:px-4 sm:py-2  cursor-pointer  hover:bg-sky-600 rounded-full">
+          <Link to={'/resume'} className="border-2 px-2 py-1 sm:px-4 sm:py-2  cursor-pointer  hover:bg-sky-600 rounded-full">
             Resume
-          </a>
+          </Link>
         </div>
       </div>
     </div>

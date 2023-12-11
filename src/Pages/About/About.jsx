@@ -1,0 +1,47 @@
+import { Link } from "react-router-dom";
+
+/* eslint-disable react/no-unescaped-entities */
+const About = () => {
+  return (
+    <div>
+      <div className="hero container mx-auto">
+        <div className="hero-content flex-col lg:flex-row-reverse">
+          <img
+            src="https://i.ibb.co/DgfxkwN/MySelf.jpg"
+            className="max-w-[280px] sm:max-w-xl lg:max-w-sm rounded-lg shadow-2xl"
+          />
+          <div>
+            <h1 className="text-3xl font-semibold">👋 About Me</h1>
+            <p className="py-6">
+              I'm Tanvir Hasan, a passionate developer on a journey to explore
+              the vast world of code and craft digital wonders. With a keen eye
+              on innovation and a vision to make a positive impact, my mission
+              is to leverage technology to create solutions that enhance and
+              simplify the way we interact with the digital realm.{" "}
+            </p>
+            <h1 className="text-3xl font-semibold">💻 Technology Stack</h1>{" "}
+            <p className="py-6">
+              My technology journey revolves around the MERN stack (MongoDB,
+              Express.js, React, Node.js), and I find joy in building robust and
+              scalable applications. From database management with MongoDB 📊 to
+              server-side scripting with Node.js 🚀, crafting dynamic user
+              interfaces with React ⚛️, and ensuring smooth server operations
+              with Express.js 🛠️ – the MERN stack encapsulates the essence of my
+              development endeavors.
+            </p>
+            <div className="mt-10 mb-5">
+              <Link
+                to={"/projects"}
+                className="border-2 px-4 py-3 font-medium text-xl  bg-sky-400  cursor-pointer  hover:bg-sky-600 rounded-lg text-white"
+              >
+                Projects
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default About;
