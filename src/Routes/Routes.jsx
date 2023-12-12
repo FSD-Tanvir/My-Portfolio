@@ -5,6 +5,7 @@ import Home from "../Pages/Home/Home";
 import About from "../Pages/About/About";
 import Education from "../Pages/Education/Education";
 import Experience from "../Pages/Experience/Experience";
+import Contact from "../Components/Shared/Navbar/Contact/Contact";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -26,6 +27,10 @@ export const router = createBrowserRouter([
       {
         path: "/experience",
         element: <Experience />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
       },
     ],
   },
