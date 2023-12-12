@@ -5,8 +5,8 @@ import Home from "../Pages/Home/Home";
 import About from "../Pages/About/About";
 import Education from "../Pages/Education/Education";
 import Experience from "../Pages/Experience/Experience";
-import Contact from "../Components/Shared/Navbar/Contact/Contact";
 import Projects from "../Pages/Projects/Projects";
+import Contact from "../Pages/Contact/Contact";
 export const router = createBrowserRouter([
   {
     path: "/",
