@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <div className="container mx-auto flex gap-10">
+    <div className="container mx-auto flex flex-col  lg:flex-row gap-10">
       {/* project 1 */}
       <div className="hero-content bg-sky-100 antialiased text-gray-900 rounded-lg flex-1">
         <div className="w-full">
