@@ -120,7 +120,7 @@ const Navbar = () => {
           <NavLink
             className="border-2 px-2 py-1 sm:px-4 sm:py-2 cursor-pointer hover:bg-gray-500 rounded-full"
             to={
-              "https://drive.google.com/file/d/1fOpnCjIDefyhft8xhWjV8vMcfHzCvo36/view?usp=drive_link"
+              "https://drive.google.com/file/d/1fOpnCjIDefyhft8xhWjV8vMcfHzCvo36/view?usp=sharing"
             }
             download
             target="_blank"
