@@ -2,7 +2,7 @@ const Projects = () => {
   return (
     <div className="container mx-auto flex flex-col  lg:flex-row gap-10">
       {/* project 1 */}
-      <div className="hero-content bg-sky-100 antialiased text-gray-900 rounded-lg flex-1">
+      <div className="hero-content bg-gray-100 antialiased text-gray-900 rounded-lg flex-1">
         <div className="w-full">
           <img
             src="https://i.ibb.co/2S3nVKr/study-hub.png"
@@ -20,7 +20,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="btn btn-sm border border-sky-400  hover:bg-sky-300">
+                  <button className="btn btn-sm border border-black  hover:bg-gray-300">
                     Live Demo
                   </button>
                 </a>
@@ -29,7 +29,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="btn btn-sm border border-sky-400  hover:bg-sky-300">
+                  <button className="btn btn-sm border border-black  hover:bg-gray-300">
                     See Code
                   </button>
                 </a>
@@ -39,7 +39,7 @@ const Projects = () => {
         </div>
       </div>
       {/* project 2 */}
-      <div className="hero-content bg-sky-100 antialiased text-gray-900 rounded-lg flex-1">
+      <div className="hero-content bg-gray-100 antialiased text-gray-900 rounded-lg flex-1">
         <div className="w-full">
           <img
             src="https://i.ibb.co/2jwpxcm/gagetbaari.png"
@@ -57,7 +57,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="btn btn-sm border border-sky-400  hover:bg-sky-300">
+                  <button className="btn btn-sm border border-black  hover:bg-gray-300">
                     Live Demo
                   </button>
                 </a>
@@ -66,7 +66,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="btn btn-sm border border-sky-400  hover:bg-sky-300">
+                  <button className="btn btn-sm border border-black  hover:bg-gray-300">
                     See Code
                   </button>
                 </a>
@@ -76,7 +76,7 @@ const Projects = () => {
         </div>
       </div>
       {/* project 3 */}
-      <div className="hero-content bg-sky-100 antialiased text-gray-900 rounded-lg flex-1">
+      <div className="hero-content bg-gray-100 antialiased text-gray-900 rounded-lg flex-1">
         <div className="w-full">
           <img
             src="https://i.ibb.co/0ssLcTs/eventist.png"
@@ -94,7 +94,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="btn btn-sm border border-sky-400  hover:bg-sky-300">
+                  <button className="btn btn-sm border border-black  hover:bg-gray-300">
                     Live Demo
                   </button>
                 </a>
@@ -103,7 +103,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="btn btn-sm border border-sky-400  hover:bg-sky-300">
+                  <button className="btn btn-sm border border-black  hover:bg-gray-300">
                     See Code
                   </button>
                 </a>

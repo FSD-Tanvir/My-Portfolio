@@ -57,7 +57,7 @@ const Contact = () => {
                           name="from_name"
                           type="text"
                           placeholder="Full Name"
-                          className="border-2 rounded px-3 py-1 w-full focus:border-sky-400 input"
+                          className="border-2 rounded px-3 py-1 w-full focus:border-black input"
                           required
                         />
                       </div>
@@ -65,7 +65,7 @@ const Contact = () => {
                         <input
                           type="text"
                           placeholder="Company Name"
-                          className="border-2 rounded px-3 py-1 w-full focus:border-sky-400 input"
+                          className="border-2 rounded px-3 py-1 w-full focus:border-black input"
                         />
                       </div>
                       <div className="sm:w-1/2 px-3 mb-6">
@@ -73,7 +73,7 @@ const Contact = () => {
                           name="to_name"
                           type="email"
                           placeholder="E-mail address"
-                          className="border-2 rounded px-3 py-1 w-full focus:border-sky-400 input"
+                          className="border-2 rounded px-3 py-1 w-full focus:border-black input"
                           required
                         />
                       </div>
@@ -81,7 +81,7 @@ const Contact = () => {
                         <input
                           type="tel"
                           placeholder="Phone Number"
-                          className="border-2 rounded px-3 py-1 w-full focus:border-sky-400 input"
+                          className="border-2 rounded px-3 py-1 w-full focus:border-black input"
                         />
                       </div>
                       <div className="sm:w-full px-3">
@@ -91,7 +91,7 @@ const Contact = () => {
                           cols="30"
                           rows="4"
                           placeholder="Your message here"
-                          className="border-2 rounded px-3 py-1 w-full focus:border-sky-400 input"
+                          className="border-2 rounded px-3 py-1 w-full focus:border-black input"
                         ></textarea>
                       </div>
                     </div>
@@ -99,7 +99,7 @@ const Contact = () => {
                       <button
                         type="submit"
                         value="Send"
-                        className="border-2 border-sky-600 rounded px-6 py-2 text-sky-600 hover:bg-sky-600 hover:text-white transition-colors duration-300"
+                        className="border-2 border-gray-500 rounded px-6 py-2 text-gray-500 hover:bg-gray-500 hover:text-white transition-colors duration-300"
                       >
                         Send a Message
                         <i className="fas fa-chevron-right ml-2 text-sm"></i>
@@ -116,7 +116,7 @@ const Contact = () => {
                       directly shoot us an{" "}
                       <a
                         href="mailto:tanvirfsd1@gmail.com"
-                        className="text-sky-600 border-b border-transparent hover:border-sky-600 inline-block"
+                        className="text-gray-500 border-b border-transparent hover:border-gray-500 inline-block"
                       >
                         email
                       </a>{" "}
@@ -125,14 +125,14 @@ const Contact = () => {
                       You can move to{" "}
                       <a
                         href="#"
-                        className="text-sky-600 border-b border-transparent hover:border-sky-600 inline-block"
+                        className="text-gray-500 border-b border-transparent hover:border-gray-500 inline-block"
                       >
                         FAQs
                       </a>{" "}
                       or{" "}
                       <a
                         href="#"
-                        className="text-sky-600 border-b border-transparent hover:border-sky-600 inline-block"
+                        className="text-gray-500 border-b border-transparent hover:border-gray-500 inline-block"
                       >
                         Support
                       </a>{" "}

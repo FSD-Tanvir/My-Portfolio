@@ -29,7 +29,7 @@ const About = () => {
             <div className="mt-10 mb-5">
               <Link
                 to={"/contact"}
-                className="border-2 px-4 py-3 font-medium text-xl  bg-sky-500  cursor-pointer  hover:bg-sky-400 rounded-lg text-white"
+                className="border-2 px-4 py-3 font-medium text-xl  bg-gray-500  cursor-pointer  hover:bg-black rounded-lg text-white"
               >
                 CONTACT
               </Link>

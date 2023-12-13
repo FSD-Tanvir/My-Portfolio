@@ -7,11 +7,11 @@ const Education = () => {
         I've discovered more about myself, grown personally, and committed to
         continuous learning. Here are the details.
       </h1>
-      <hr className="border-t-4 border-sky-300 my-1 w-5/6  lg:w-1/2 mx-auto" />
+      <hr className="border-t-4 border-gray-300 my-1 w-5/6  lg:w-1/2 mx-auto" />
 
       <div>
         <div className="w-5/6  lg:w-1/2 mx-auto my-6 border-t border-b border-r rounded">
-          <div className="p-4 border-l-4 border-sky-400 rounded">
+          <div className="p-4 border-l-4 border-black rounded">
             <div className="m-2 text-xl font-bold">
               Bachelor of Science in Mathematics{" "}
             </div>
@@ -26,7 +26,7 @@ const Education = () => {
           </div>
         </div>
         <div className="w-5/6  lg:w-1/2 mx-auto my-6 border-t border-b border-r rounded">
-          <div className="p-4 border-l-4 border-sky-400 rounded">
+          <div className="p-4 border-l-4 border-black rounded">
             <div className="m-2 text-xl font-bold">
               Higher Secondary School Certificate
             </div>

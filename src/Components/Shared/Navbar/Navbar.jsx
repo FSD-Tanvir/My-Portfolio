@@ -10,7 +10,7 @@ import {
 
 const Navbar = () => {
   return (
-    <div className="bg-sky-400 text-white">
+    <div className="bg-black text-white">
       <div className="navbar container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -32,7 +32,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 bg-white text-sky-400"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 bg-white text-black"
             >
               <li>
                 <NavLink to="/">
@@ -78,37 +78,37 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="flex gap-6">
-            <li className="cursor-pointer hover:bg-sky-600 px-2 py-1 rounded-lg">
+            <li className="cursor-pointer hover:bg-gray-500 px-2 py-1 rounded-lg">
               <NavLink to="/" className="flex items-center gap-1">
                 <AiOutlineHome />
                 Home
               </NavLink>
             </li>
-            <li className="cursor-pointer hover:bg-sky-600 px-2 py-1 rounded-lg">
+            <li className="cursor-pointer hover:bg-gray-500 px-2 py-1 rounded-lg">
               <NavLink to="/about" className="flex items-center gap-1">
                 <AiOutlineInfoCircle />
                 About
               </NavLink>
             </li>
-            <li className="cursor-pointer hover:bg-sky-600 px-2 py-1 rounded-lg">
+            <li className="cursor-pointer hover:bg-gray-500 px-2 py-1 rounded-lg">
               <NavLink to="/education" className="flex items-center gap-1">
                 <AiOutlineBook />
                 Education
               </NavLink>
             </li>
-            <li className="cursor-pointer hover:bg-sky-600 px-2 py-1 rounded-lg">
+            <li className="cursor-pointer hover:bg-gray-500 px-2 py-1 rounded-lg">
               <NavLink to="/experience" className="flex items-center gap-1">
                 <AiOutlineUser />
                 Experience
               </NavLink>
             </li>
-            <li className="cursor-pointer hover:bg-sky-600 px-2 py-1 rounded-lg">
+            <li className="cursor-pointer hover:bg-gray-500 px-2 py-1 rounded-lg">
               <NavLink to="/projects" className="flex items-center gap-1">
                 <AiOutlineProject />
                 Projects
               </NavLink>
             </li>
-            <li className="cursor-pointer hover:bg-sky-600 px-2 py-1 rounded-lg">
+            <li className="cursor-pointer hover:bg-gray-500 px-2 py-1 rounded-lg">
               <NavLink to="/contact" className="flex items-center gap-1">
                 <AiOutlineMail />
                 Contact
@@ -119,7 +119,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <NavLink
             to="/resume"
-            className="border-2 px-2 py-1 sm:px-4 sm:py-2 cursor-pointer hover:bg-sky-600 rounded-full"
+            className="border-2 px-2 py-1 sm:px-4 sm:py-2 cursor-pointer hover:bg-gray-500 rounded-full"
           >
             Resume
           </NavLink>

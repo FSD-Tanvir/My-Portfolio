@@ -8,10 +8,10 @@ const Experience = () => {
         Proactive Developer with Project-Based Expertise in MERN Stack,
         Firebase, and Modern Web Technologies
       </h1>
-      <hr className="border-t-4 border-sky-300 my-1 w-5/6  lg:w-1/2 mx-auto" />
+      <hr className="border-t-4 border-gray-300 my-1 w-5/6  lg:w-1/2 mx-auto" />
       <div>
         <div className="w-5/6  mx-auto my-6 border-t border-b border-r rounded">
-          <div className="p-4 border-l-4 border-sky-400 rounded">
+          <div className="p-4 border-l-4 border-black rounded">
             <div className="m-2 pb-2  text-grey-darker border-b-2 border-grey-lighter ">
               Despite the absence of formal work experience, my journey is
               defined by a dedication to hands-on projects involving MERN stack
@@ -37,7 +37,7 @@ const Experience = () => {
       <div className="mt-10 mb-5 text-center">
         <Link
           to={"/projects"}
-          className="border-2 px-4 py-3 font-medium text-xl  bg-sky-500  cursor-pointer  hover:bg-sky-400 rounded-lg text-white"
+          className="border-2 px-4 py-3 font-medium text-xl  bg-gray-500  cursor-pointer  hover:bg-black rounded-lg text-white"
         >
           PROJECTS
         </Link>

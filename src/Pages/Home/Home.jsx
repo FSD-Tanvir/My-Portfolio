@@ -12,9 +12,9 @@ const Home = () => {
           <div className="">
             <h3 className="font-medium tracking-wider ">WELCOME TO MY WORLD</h3>
             <h1 className="text-4xl lg:text-5xl font-bold">
-              Hi, I’m <span className="text-sky-400">Tanvir </span>
+              Hi, I’m <span className="text-black">Tanvir </span>
             </h1>
-            <h2 className=" text-3xl lg:text-4xl font-bold text-sky-400">
+            <h2 className=" text-3xl lg:text-4xl font-bold text-black">
               a
               <span>
                 <Typewriter
@@ -42,12 +42,12 @@ const Home = () => {
                 </h4>
                 <div className="button flex gap-5">
                   <Link to={"https://www.linkedin.com/in/fsd-tanvir/"}>
-                    <button className="btn btn-circle text-white bg-sky-500 hover:bg-sky-400">
+                    <button className="btn btn-circle text-white bg-gray-500 hover:bg-black">
                       <FaLinkedinIn />
                     </button>
                   </Link>
                   <Link to={"/contact"}>
-                    <button className="btn btn-circle text-white bg-sky-500 hover:bg-sky-400">
+                    <button className="btn btn-circle text-white bg-gray-500 hover:bg-black">
                       <MdEmail />
                     </button>
                   </Link>
